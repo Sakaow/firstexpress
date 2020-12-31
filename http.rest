@@ -1,1 +1,14 @@
-GET http://localhost:3000
+# GET http://localhost:3000
+
+# this access one property's value
+# GET http://localhost:3000/products/2
+GET http://localhost:3000/products/1?mac=5
+
+###
+POST http://localhost:3000/add
+Content-Type: application/json
+
+{
+    "title": "test",
+    "id": 5
+}
